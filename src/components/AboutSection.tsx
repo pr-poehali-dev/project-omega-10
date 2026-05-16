@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Качество", description: "Высококлассные решения, соответствующие самым высоким стандартам" },
-  { title: "Доступность", description: "Профессиональные сайты по честным и прозрачным ценам" },
-  { title: "Прозрачность", description: "Четкая коммуникация без скрытых платежей" },
-  { title: "Клиентоориентированность", description: "Ваши цели и пожелания всегда в приоритете" },
-  { title: "Масштабируемость", description: "Сайты, которые растут вместе с вашим бизнесом" },
-  { title: "Гибкость", description: "Быстрая адаптация под меняющиеся потребности" },
+  { title: "Прозрачность", description: "Все условия офферов и выплат открыты — никаких скрытых комиссий" },
+  { title: "Результативность", description: "Платите только за реальных клиентов, а не за обещания" },
+  { title: "Надёжность", description: "Верифицированные партнёры и защита от фродового трафика" },
+  { title: "Простота", description: "Запустить оффер можно за несколько минут без лишних согласований" },
+  { title: "Масштаб", description: "Сотни партнёров готовы продвигать ваш продукт прямо сейчас" },
+  { title: "Поддержка", description: "Персональный менеджер помогает настроить оффер и достичь результата" },
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "500+", label: "Активных офферов" },
+  { number: "200+", label: "Партнёров в сети" },
+  { number: "98%", label: "Выплаты вовремя" },
+  { number: "24/7", label: "Поддержка" },
 ]
 
 export function AboutSection() {
@@ -27,19 +27,19 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            О EQIUS PARTNERS
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Качество, которое{" "}
+            Партнёрство, которое{" "}
             <span className="text-primary relative">
-              впечатляет
+              работает
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Мы создали платформу, где бизнесы размещают офферы, а партнёры их продвигают. Просто, честно, с реальным результатом для обеих сторон.
           </p>
         </div>
 
