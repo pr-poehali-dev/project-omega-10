@@ -53,7 +53,7 @@ export function ServicesSection() {
           Всё для <span className="text-primary">партнёрского роста</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty leading-relaxed text-lg">
-          EQIUS PARTNERS — это полноценная экосистема для размещения офферов и управления партнёрскими продажами.
+          Solid Partners — это полноценная экосистема для размещения офферов и управления партнёрскими продажами.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (

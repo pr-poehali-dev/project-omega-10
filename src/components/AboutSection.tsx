@@ -11,7 +11,7 @@ const values = [
 ]
 
 const stats = [
-  { number: "2025", label: "Год основания" },
+  { number: "2026", label: "Год основания" },
   { number: "0→∞", label: "Потенциал роста" },
   { number: "100%", label: "Прозрачность" },
   { number: "24/7", label: "На связи" },
@@ -27,7 +27,7 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О EQIUS PARTNERS
+            О Solid Partners
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
             Партнёрство, которое{" "}
@@ -39,7 +39,7 @@ export function AboutSection() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            EQIUS PARTNERS — это идея, которая превращается в платформу. Мы в самом начале пути и ищем тех, кто готов строить партнёрский рынок вместе с нами.
+            Solid Partners — это идея, которая превращается в платформу. Мы в самом начале пути и ищем тех, кто готов строить партнёрский рынок вместе с нами.
           </p>
         </div>
 
