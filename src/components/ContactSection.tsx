@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Send, Clock } from "lucide-react"
+import { Mail, Send, Clock, User } from "lucide-react"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -156,6 +156,26 @@ export function ContactSection() {
                     <p className="text-sm text-muted-foreground">
                       Отвечаем в течение 24 часов<br />в рабочие дни
                     </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 group-hover:scale-110">
+                    <User className="h-5 w-5" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold mb-1">Руководитель</h3>
+                    <p className="text-sm text-muted-foreground mb-3">Ужгатин Илья Алексеевич</p>
+                    <a href="https://t.me/IliaSolid" target="_blank" rel="noopener noreferrer">
+                      <Button size="sm" className="gap-2 w-full">
+                        <Send className="h-4 w-4" />
+                        Написать в Telegram
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </CardContent>

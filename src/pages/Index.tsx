@@ -5,6 +5,7 @@ import { AboutSection } from "@/components/AboutSection"
 import { ProcessSection } from "@/components/ProcessSection"
 import { CEOSection } from "@/components/CEOSection"
 import { PortfolioSection } from "@/components/PortfolioSection"
+import { OffersSection } from "@/components/OffersSection"
 import { ContactSection } from "@/components/ContactSection"
 import { Footer } from "@/components/Footer"
 
@@ -18,6 +19,7 @@ export default function Index() {
       <ProcessSection />
       <CEOSection />
       <PortfolioSection />
+      <OffersSection />
       <ContactSection />
       <Footer />
     </main>
